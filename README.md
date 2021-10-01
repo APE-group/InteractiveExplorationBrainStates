@@ -1,22 +1,24 @@
 # InteractiveExplorationBrainStates
+
 Interactive Exploration of Brain States and Spatio-Temporal Activity Patterns in Data-Constrained Simulations
 
 How the same network can generate different brain states with their specific propagation patterns and rhythms?
 
 In this Jupyter Lab environment, the user can interactively change the neuromodulated fatigue parameters and observe in real-time the emergence of different categories of slow-wave wave-propagation patterns and the transition to an asynchronous regime on a columnar mean-field model equipped with lateral connections inferred from experimentally acquired cortical activity.
+
 The model displays the dorsal view of a mouse cortical hemisphere sampled by pixels of 100-micron size over a 25 mm2 field of view.
 
-The connectivity of the model was inferred from cortical activity acquired using GECI imaging technique. Even if the connectivity of the model was inferred from a single brain-state, the neuromodulated model supports the emergence of a rich dynamic repertoire of spatio-temporal propagation patterns, from those corresponding to deepests levels of anesthesia (spirals) to classical postero-anterior and rostro-caudal waves up to the transition to asynchronous activity, with the dissolution of the slow-wave features (1).
+The connectivity of the model was inferred from cortical activity acquired using GECI imaging technique. Even if the connectivity of the model was inferred from a single brain-state, the neuromodulated model supports the emergence of a rich dynamic repertoire of spatio-temporal propagation patterns, from those corresponding to deepests levels of anesthesia (spirals) to classical postero-anterior and rostro-caudal waves up to the transition to asynchronous activity, with the dissolution of the slow-wave features (1,3,4,5).
 
 The experimental data set from which the model has been inferred has been provided by LENS and it is available in the EBRAINS KG (2).
 
-The analyses of slow-wave features in the experimental and modeled data were based on the analysis pipeline design presented in (3).
+The analyses of slow-wave features in the experimental and modeled data were based on the analysis pipeline design presented in (6).
 
-The predecessor of this model can be found at (4).
+The predecessor of this model can be found at (7).
 
-The latest version of the code presented in the drive of this collab can be found in this github.
+The latest version of the code presented in the drive of this collab can be found in this github (8).
 
-The interactive model is registered in the EBRAINS Knowledge Graph at (6)
+The interactive model is registered in the EBRAINS Knowledge Graph at (9)
 
 References
 
@@ -24,27 +26,20 @@ References
 
 (2) Resta, F., Allegra Mascaro, A. L., & Pavone, F. (2020). Study of Slow Waves (SWs) propagation through wide-field calcium imaging of the right cortical hemisphere of GCaMP6f mice [Data set]. EBRAINS. DOI: 10.25493/3E6Y-E8G
 
-(3) Robin Gutzen, Giulia De Bonis, Elena Pastorelli, Cristiano Capone, Chiara De Luca, Glynis Mattheisen, Anna Letizia Allegra Mascaro, Francesco Resta, Francesco Saverio Pavone, Maria V. Sanchez-Vives, Maurizio Mattia, Sonja Grün, Andrew Davison, Pier Stanislao Paolucci, Michael Denker (2020). Building adaptable and reusable pipelines for investigating the features of slow cortical rhythms across scales, methods, and species. Bernstein Conference. DOI: 10.12751/nncn.bc2020.0030 
+(3) Capone, C., Rebollo, B., Muñoz, A., Illa, X., Del Giudice, P., Sanchez-Vives, M. V., & Mattia, M. (2019). Slow-waves in cortical slices: how spontaneous activity is shaped by laminar structure. Cerebral Cortex, 2019. https://doi.org/10.1093/cercor/bhx326
 
-(4) Mean Field Simulation of whole mouse hemisphere with parameters inferred from optical recordings https://search.kg.ebrains.eu/instances/e572362f-9461-4f9d-81e2-b69cd44185f4
+(4) Capone, C., Pastorelli, E., Golosio, B., & Paolucci, P. S. (2019). Sleep-like slow oscillations improve visual classification through synaptic homeostasis and memory association in a thalamo-cortical model. Scientific Reports, 2019. https://doi.org/10.1038/s41598-019-45525-0
 
-(5) https://github.com/APE-group/InteractiveExplorationBrainStates
+(5) Tort-Colet, N., Capone, C., Sanchez-Vives, M. V., & Mattia, M. (2021). Attractor competition enriches cortical dynamics during awakening from anesthesia. Cell Reports, 2021. https://doi.org/10.1016/j.celrep.2021.109270.
 
-(6) https://search.kg.ebrains.eu/instances/3ebdd555-f965-477c-8a0e-4c220014d138 Interactive Exploration of Brain States and Spatio-Temporal Activity Patterns in Data-Constrained Simulations
+(6) Robin Gutzen, Giulia De Bonis, Elena Pastorelli, Cristiano Capone, Chiara De Luca, Glynis Mattheisen, Anna Letizia Allegra Mascaro, Francesco Resta, Francesco Saverio Pavone, Maria V. Sanchez-Vives, Maurizio Mattia, Sonja Grün, Andrew Davison, Pier Stanislao Paolucci, Michael Denker (2020). Building adaptable and reusable pipelines for investigating the features of slow cortical rhythms across scales, methods, and species. Bernstein Conference. DOI: 10.12751/nncn.bc2020.0030 
 
-The model displays the dorsal view of a mouse cortical hemisphere sampled by pixels of 100-micron size over a 25 mm2 field of view.
+(7) Mean Field Simulation of whole mouse hemisphere with parameters inferred from optical recordings https://search.kg.ebrains.eu/instances/e572362f-9461-4f9d-81e2-b69cd44185f4
 
-The connectivity of the model was inferred from cortical activity acquired using GECI imaging technique. Even if the connectivity of the model was inferred from a single brain-state, the neuromodulated model supports the emergence of a rich dynamic repertoire of spatio-temporal propagation patterns, from those corresponding to deepests levels of anesthesia (spirals) to classical postero-anterior and rostro-caudal waves up to the transition to asynchronous activity, with the dissolution of the slow-wave features (1).
+(8) https://github.com/APE-group/InteractiveExplorationBrainStates
 
-The experimental data set from which the model has been inferred has been provided by LENS and it is available in the EBRAINS KG (2).
+(9) https://search.kg.ebrains.eu/instances/3ebdd555-f965-477c-8a0e-4c220014d138 Interactive Exploration of Brain States and Spatio-Temporal Activity Patterns in Data-Constrained Simulations
 
-The analyses of slow-wave features in the experimental and modeled data were based on the analysis pipeline design presented in (3).
-
-The predecessor of this model can be found at (4).
-
-The latest version of the code presented in the drive of this collab can be found at (5).
-
-The interactive model is registered in the EBRAINS Knowledge Graph at (6)
 
 Acknowledgment
 

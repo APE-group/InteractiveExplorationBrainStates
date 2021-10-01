@@ -14,7 +14,7 @@ The analyses of slow-wave features in the experimental and modeled data were ba
 
 The predecessor of this model can be found at (4).
 
-The latest version of the code presented in the drive of this collab can be found at (5).
+The latest version of the code presented in the drive of this collab can be found in this github.
 
 The interactive model is registered in the EBRAINS Knowledge Graph at (6)
 

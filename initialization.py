@@ -176,7 +176,7 @@ def run_and_plot(I0,b_0,b_amp,state):
     #plt.plot([I_doublets, I_doublets], [ b_doublets-b_amp_doublets, b_doublets+b_amp_doublets ],'g-',linewidth=2)
     plt.annotate('Waves MA', (I_SOMA,b_SOMA))
 
-    plt.savefig('fig1.eps')
+    #plt.savefig('fig1.eps')
 
     fig, axs = plt.subplots(2,6,figsize=(16, 5))
 
@@ -194,7 +194,7 @@ def run_and_plot(I0,b_0,b_amp,state):
         axs[int(floor(n_plot/6)),n_plot%6].set_xticklabels([])
         axs[int(floor(n_plot/6)),n_plot%6].set_title('t = ' + str((t_ndx-100)*0.04) + 's' )
 
-    plt.savefig('fig2.eps')
+    #plt.savefig('fig2.eps')
 
         #plt.colorbar()
 

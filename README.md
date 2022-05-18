@@ -7,8 +7,15 @@ How the same network can generate different brain states with their specific pro
 In this Jupyter Lab environment, the user can interactively change the neuromodulationo and adaptation parameters and observe in real-time the emergence of different categories of slow-wave wave-propagation patterns (spontaneous and stimulated) and the transition to an asynchronous regime on a columnar mean-field model equipped with lateral connections inferred from experimentally acquired cortical activity.
 
 ![Illustration of the General Framework](fig1.png)
+![Illustration of the General Framework](fig2.png)
 
 The model displays the dorsal view of a mouse cortical hemisphere sampled by pixels of 100-micron size over a 25 mm2 field of view.
+
+Stimulus OFF
+![Illustration of the General Framework](fig3.png)
+
+Stimulus ON
+![Illustration of the General Framework](fig4.png)
 
 The connectivity of the model was inferred from cortical activity acquired using GECI imaging technique. Even if the connectivity of the model was inferred from a single brain-state, the neuromodulated model supports the emergence of a rich dynamic repertoire of spatio-temporal propagation patterns, from those corresponding to deepests levels of anesthesia (spirals) to classical postero-anterior and rostro-caudal waves up to the transition to asynchronous activity, with the dissolution of the slow-wave features (1,3,4,5).
 
